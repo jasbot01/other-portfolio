@@ -12,11 +12,11 @@ const Header = () => {
     return (
         <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
             <div>
-                <Image src={assets.profile_img} alt='' className='rounded-full w-32'/>
-                
+                <Image src={assets.jas_profile} alt='' className='rounded-full w-32'/>
             </div>
+            
             <h3 className={`${ovo.className} flex items-end gap-2 text-xl md:text-2xl mb-3`}>
-                    Hi! I'm Jasmine <Image src={assets.hand_icon} alt='' className='w-6'/>
+                    Hi! I'm Jasmine 
             </h3>
             
             <h1 className={`${ovo.className} text-3xl sm:text-6xl lg:text-[66px]`}>
@@ -26,6 +26,7 @@ const Header = () => {
             <p className={`${ovo.className} 'max-w-2xl mx-auto'`}>
                 I am passionate about tech literacy, security, and UX/UI! 
             </p>
+            
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <a href="#contact"
                 className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center'
