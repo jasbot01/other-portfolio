@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@tailwind base;
+/*@tailwind base;*/
 @tailwind utilities;
 @tailwind utilities;
 
@@ -8,5 +8,9 @@
 }
 
 .nav-link{
+  font-family: 'Ovo', sans-serif;
+}
+
+h3{
   font-family: 'Ovo', sans-serif;
 }
