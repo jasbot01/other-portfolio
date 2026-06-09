@@ -12,11 +12,9 @@ const Navbar = () => {
         {/* this is to keep the NAV bar horizontal at the top of the page */}
         <nav className='w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50'> 
             <a href="#top" className='w-38'>
-               {/* 
                 <Image src={assets.logo} className='w-28 alt="cursor"
                 cursor-pointer mr-14'/>
-                */} 
-                </a>
+            </a>
 
             {/* add light shadow behind nav bar */}
             <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50'>
