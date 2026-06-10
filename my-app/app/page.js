@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import About from "@/components/About";
 import Header from "@/components/Header";
 import Work from "@/components/Work";
+import Contact from "@/components/Contact";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
     <Header/>
     <About/>
     <Work/> 
+    <Contact/> 
     </>    
   );
 }
