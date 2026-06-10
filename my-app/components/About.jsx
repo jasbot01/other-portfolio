@@ -10,6 +10,7 @@ const ovo = Ovo ({
 });
 
 
+
 const About = () => {
     return (
         <div id='about' className={`${ovo.className} w-full px-[12%] py-10 scroll-mt-20`}>
@@ -39,8 +40,7 @@ const About = () => {
                     <ul className={`${ovo.className} grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl`}>
                         {infoList.map(({icon, iconDark, title, description},
                         index)=>(
-                            <li className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover
-                            hover:-translate-y-1 duration-500'
+                            <li className={`border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500`}
                             key={index}>
                                 <Image src={icon} alt={title} className='w-7
                                 mt-3'/>
