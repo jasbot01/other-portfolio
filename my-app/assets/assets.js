@@ -86,19 +86,19 @@ export const workData = [
     {
         title: 'Gcloud Tarpaulin App',
         description: 'Lightweight alternative to Canvas',
-        bgImage: '/work-1.png',
+        bgImage: '/cloud-work.png',
         git_url: 'https://github.com/jasbot01/gcloud-course-registration',
     },
     {
         title: 'Evacuation Drill App',
         description: 'Tracks evacuation data for research',
-        bgImage: '/work-2.png',
+        bgImage: '/evac-work.png',
         git_url: 'https://github.com/jasbot01/evacuation-drill-app',
     },
     {
         title: 'Power Panic Maze',
         description: 'Grid-based maze game using Pygame lib',
-        bgImage: '/work-3.png',
+        bgImage: '/robo-work.png',
         git_url: 'https://github.com/jasbot01/maze-game',
     },
 ]
