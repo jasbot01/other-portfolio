@@ -95,7 +95,7 @@ export const workData = [
     },
     {
         title: 'Power Panic Maze',
-        description: 'Grid-based maze game',
+        description: 'Grid-based maze game using Pygame lib',
         bgImage: '/work-3.png',
         git_url: 'https://github.com/jasbot01/maze-game',
     },
