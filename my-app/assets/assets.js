@@ -15,9 +15,10 @@ import right_arrow_white from './right-arrow-white.png';
 //import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+//import profile_img from './profile-img.png';
 import jas_profile from './jas_profile.png';
 import jas_climb_pic from './jas_climb_pic.jpeg';
+import me_profile from './me_profile.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -56,8 +57,9 @@ export const assets = {
     //logo_dark,
     mail_icon,
     mail_icon_dark,
-    profile_img,
-    jas_profile, 
+    //profile_img,
+    jas_profile,
+    me_profile, 
     jas_climb_pic, 
     download_icon,
     hand_icon,
