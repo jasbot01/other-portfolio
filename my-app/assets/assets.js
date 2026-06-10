@@ -82,24 +82,27 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Gcloud Tarpaulin App',
+        description: 'Lightweight alternative to Canvas',
         bgImage: '/work-1.png',
+        git_url: 'https://github.com/jasbot01/gcloud-course-registration',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Evacuation Drill App',
+        description: 'Tracks evacuation data for research',
         bgImage: '/work-2.png',
+        git_url: 'https://github.com/jasbot01/evacuation-drill-app',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Power Panic Maze',
+        description: 'Grid-based maze game',
         bgImage: '/work-3.png',
+        git_url: 'https://github.com/jasbot01/maze-game',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.web_icon, title: 'Gcloud Tarpaulin App', description: 'Web development is the process of building, programming...', link: '' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },

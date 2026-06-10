@@ -23,8 +23,10 @@ const Navbar = () => {
                 <li><a className="nav-link" href="#top">Home</a></li>    
                 <li><a className="nav-link" href="#about">About me</a></li>
                 <li><a className="nav-link" href="#work">My Work</a></li>
+                    {/* 
                 <li><a className="nav-link" href="#contact">Contact me</a></li>    
-            </ul>
+                    */}
+                </ul>
             <div>
                 <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 nav-link font-Ovo'>Contact <Image src={assets.arrow_icon} alt="contact" className='w-3'/></a>
             </div> 
